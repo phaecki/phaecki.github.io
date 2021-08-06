@@ -2638,7 +2638,7 @@ input, select, textarea {
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: 100% 100%;
-					opacity: 0.25;
+					opacity: 0.75;
 					z-index: 2;
 				}
 
@@ -2738,11 +2738,11 @@ input, select, textarea {
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
 					background-color: #333333;
-					opacity: 0.85;
+					opacity: 0.35;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
-					opacity: 1.0;
+					opacity: 0;
 				}
 
 			body:not(.is-touch) .tiles article:hover .content {
